@@ -50,9 +50,12 @@ function addGamesToPage(games) {
             <h2>${game.name}</h2>
             <p>${game.description}</p>
             <p> Backers: ${game.backers}</p>
-            <p> Pledged: ${game.pledged}</p>
-            <p> Goal: ${game.goal}</p>
             `;
+
+            // Used these for testing challenge 5 logic:
+
+            //<p> Goal: ${game.goal}</p>
+            //<p> Pledged: ${game.pledged}</p>
 
         // append the game to the games-container
 
@@ -227,6 +230,22 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 
 // use destructuring and the spread operator to grab the first and second games
 
+const [firstGame, secondGame, ...remainingGames] = sortedGames;
+
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 
+let topGameDiv = document.createElement("div");
+
+topGameDiv.innerHTML = `
+<p>${firstGame.name}</p>
+`
+firstGameContainer.append(topGameDiv);
+
 // do the same for the runner up item
+
+let runnerUpGameDiv = document.createElement("div");
+
+runnerUpGameDiv.innerHTML = `
+<p>${secondGame.name}</p>
+`
+secondGameContainer.append(runnerUpGameDiv);
