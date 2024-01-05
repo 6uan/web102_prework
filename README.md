@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
 * [x] Added Hover Effects to unfunded games, only funded games, and all games buttons.
 * [x] Included Link to Source Code at the top of the website.
 * [x] Used Flexbox to center various sections of the website.
@@ -32,15 +32,28 @@ Hover Effects:
 
 ![Hover Effects](https://github.com/6uan/web102_prework/assets/110940309/8d1e868a-dcfe-45d1-93bc-b1d5471d3877)
 
+Link to Source Code:
 
+![SourceCode](https://github.com/6uan/web102_prework/assets/110940309/fc6e396a-cc52-4907-8964-8895e948ab8c)
 
+Flexbox: 
 
-Coming Soon...
+![flexbox](https://github.com/6uan/web102_prework/assets/110940309/7ab1daaa-0dc3-48d5-868d-5d2f1d5e0e19)
+
+Over-goal Logic: 
+
+![overgoal](https://github.com/6uan/web102_prework/assets/110940309/ce4987a3-6e49-41dd-b20e-8d699a0465f2)
+
+Icons: 
+
+![ourgames](https://github.com/6uan/web102_prework/assets/110940309/4abc7d1f-6aeb-4973-bdee-dbe4fbdf5349)
+![ourgames](https://github.com/6uan/web102_prework/assets/110940309/6e55b511-0d7a-4df2-ad38-b396109be6d8)
+
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Kap... 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
