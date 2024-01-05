@@ -28,6 +28,13 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
+Hover Effects:
+
+![Hover Effects](https://github.com/6uan/web102_prework/assets/110940309/8d1e868a-dcfe-45d1-93bc-b1d5471d3877)
+
+
+
+
 Coming Soon...
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
