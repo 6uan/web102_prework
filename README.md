@@ -47,7 +47,8 @@ Over-goal Logic:
 Icons: 
 
 ![ourgames](https://github.com/6uan/web102_prework/assets/110940309/4abc7d1f-6aeb-4973-bdee-dbe4fbdf5349)
-![ourgames](https://github.com/6uan/web102_prework/assets/110940309/6e55b511-0d7a-4df2-ad38-b396109be6d8)
+![stats](https://github.com/6uan/web102_prework/assets/110940309/6c433785-61f4-4d11-b95b-4af67cb251a7)
+
 
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
