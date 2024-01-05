@@ -7,20 +7,42 @@
   </head>
 
   <body>
+
+  <div class="header-align">
     <!-- header row with logo -->
     <div class="header">
         <img id="tentacles" src="assets/tentacles.png">
         <h1 class="header-text">Sea Monster Crowdfunding</h1>
     </div>
 
+    <!-- added student info -->
+    <div class="header">
+        <img id="github" src="assets/github.png">
+        <a class="header-text-2" href="https://github.com/6uan/web102_prework"> Source Code</a>
+        <p> </p>
+    </div>
+  </div>
+
+
     <!-- background info about company -->
-    <h2>Welcome to Sea Monster!</h2>
-    <div id="description-container">
-        <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
+    <div class="info-container">
+        <h2 class="welcome">Welcome to Sea Monster!</h2>
+        <hr>
+
+
+        <div id="description-container" class="info-container">
+            <p>The <strong class="strong">purpose</strong> of our company 
+                is to fund <strong>independent</strong> games. 
+                We've been in operation for <strong>12 years</strong>.</p>
+        </div>
     </div>
 
     <!-- top games & other interesting stats -->
-    <h2>Stats</h2>
+    <div class="icon-container">
+     <h2 class="big-text">Stats</h2>
+     <svg xmlns="http://www.w3.org/2000/svg" height="57" viewBox="0 0 448 512" style="display: block; margin-left: 10px;"><path fill="#e8e4dd" d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm64 192c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm64-64c0-17.7 14.3-32 32-32s32 14.3 32 32V352c0 17.7-14.3 32-32 32s-32-14.3-32-32V160zM320 288c17.7 0 32 14.3 32 32v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V320c0-17.7 14.3-32 32-32z"/></svg>   
+    </div>
+    
     <div class="stats-container">
         <div class="stats-card">
             <h3>Individual Contributions</h3>
@@ -48,13 +70,16 @@
     </div>
 
     <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
+    <div class="icon-container">
+    <h2 class="big-text">Our Games</h2>
+    <svg xmlns="http://www.w3.org/2000/svg" height="65" width="105" viewBox="0 0 448 512" style="display: block; margin-left: -10px;"><path fill="#e8e4dd" d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"/></svg>
+    </div>
     <div id="button-container">
         <button id="unfunded-btn">Show Unfunded Only</button>
         <button id="funded-btn">Show Funded Only</button>
         <button id="all-btn">Show All Games</button>
     </div>
+    <p class="info-container">Check out each of our games below!</p>
     <div id="games-container">
     </div>
 
