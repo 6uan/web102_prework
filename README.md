@@ -26,7 +26,19 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+Here's a walkthrough of implemented and Optional features:
+
+Introduction Section:
+
+![intro](https://github.com/6uan/web102_prework/assets/110940309/ebdc324a-9be8-45b1-9057-81bb2447ec00)
+
+Stat Section: 
+
+![statsection](https://github.com/6uan/web102_prework/assets/110940309/00a1b0e3-698e-4b38-a66f-3356367ba5d1)
+
+Our Game Section + Three Buttons: 
+
+![game section](https://github.com/6uan/web102_prework/assets/110940309/a19e9df9-f04b-4e52-9ad3-18e37812870e)
 
 Hover Effects:
 
